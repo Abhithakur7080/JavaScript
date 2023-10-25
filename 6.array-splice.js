@@ -15,5 +15,6 @@ console.log(arrayIntegers2);// returns [4, 5];
 console.log(arrayIntegersOriginal2);// returns [1, 2, 3];
 
 let arrayIntegers3 = arrayIntegersOriginal3.splice(3, 1, "a", "b", "c"); 
+//1 for 1 element remove -> 4 only
 console.log(arrayIntegers3);//returns [4];
 console.log(arrayIntegersOriginal3);// returns [1, 2, 3, "a", "b", "c", 5];
